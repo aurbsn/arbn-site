@@ -1,0 +1,8 @@
+(document
+ :title "First post"
+ :date (make-date* 2015 10 15)
+ :tags '("scheme haunt")
+
+ (h1 [First post])
+
+ (p [I'm giving Haunt another try. I really considered using ,(code [org-publish]) this time around, but I just can't resist declarative Scheme configuration and Skribe seems pretty cool.]))
