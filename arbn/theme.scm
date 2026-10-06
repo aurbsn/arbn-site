@@ -35,7 +35,11 @@
                    (nav (ul ,@(map (match-lambda ((name link attrs) `(li (a (@ (href ,link) ,@attrs) ,name)))) top-links))))
            (main ,body)
            (footer (@ (class "site-footer"))
-                   "© " ,(date->string (current-date) "~Y") " Austin Robinson")))))
+                   "© " ,(date->string (current-date) "~Y") " Austin Robinson. Content licensed "
+                   (a (@ (rel "license")
+                         (href "https://creativecommons.org/licenses/by-sa/4.0/"))
+                      "CC BY-SA 4.0")
+                   ".")))))
 
 (define (post-template post)
   `(article

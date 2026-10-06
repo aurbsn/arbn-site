@@ -1,0 +1,16 @@
+#+title: arbn.nyc
+
+Source for [[https://arbn.nyc][arbn.nyc]], built with [[https://dthompson.us/projects/haunt.html][Haunt]].
+
+#+begin_src sh
+haunt build --config=site.scm
+haunt serve --watch --config=site.scm
+#+end_src
+
+* License
+
+- Code (=site.scm=, =arbn/=, =css/=) is licensed under the GNU General Public
+  License, version 3 or later. See [[file:LICENSE][LICENSE]].
+- Content (=posts/= and any images or other media) is licensed under
+  [[https://creativecommons.org/licenses/by-sa/4.0/][Creative Commons Attribution-ShareAlike 4.0 International]].
+  See [[file:LICENSE-CONTENT][LICENSE-CONTENT]].
