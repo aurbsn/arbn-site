@@ -1,6 +1,6 @@
 (document
  :title "First post"
- :date (make-date* 2015 10 15)
+ :date (make-date* 2026 10 15)
  :tags '("scheme haunt")
 
  (h1 [First post])
